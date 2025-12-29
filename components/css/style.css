@@ -217,6 +217,13 @@ header .bottom ul li a {
 }
 
 header .bottom ul li a:hover,
+header .bottom ul li a:active,
+header .bottom ul li a.active {
+  text-decoration: underline 0.5px;
+  text-underline-offset: 5px;
+}
+
+header .bottom ul li a:hover,
 header .bottom ul li a:active {
   text-decoration: underline 0.5px;
   text-underline-offset: 5px;

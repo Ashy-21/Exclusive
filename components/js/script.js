@@ -436,6 +436,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+
   const breadcrumb = document.getElementById("breadcrumb");
   const path = window.location.pathname;
 
@@ -500,7 +501,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (
     navHome &&
     (path.endsWith("index.html") ||
-      path.endsWith("products.html") ||
+      path.includes("products.html") ||
       path === "/" ||
       path === "")
   ) {
